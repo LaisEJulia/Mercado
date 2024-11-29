@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffcf7;
+    padding: 20px;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: #57321b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+h2{
+    color: #57321b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo-titulo{
+    display: flex;
+}
+
+.Estoque-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container, .product-list {
+    background-color: #f7f1dd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.form-container input, .form-container select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #65803e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.action-button:hover {
+    background-color: #45a049;
+}
+
+.product-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-list th, .product-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-list th {
+    background-color: #f2f2f2;
+}
+
+.logo{
+    width: 8%;
+}
+
+input{
+    background-color: #fffcf7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+select{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fffcf7;
+}
